@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <OtherFlags>
+            --warnaserror:FS0025;FS0003;FS1182;FS0065;FS0058;FS0020;FS0044;FS0193
+        </OtherFlags>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="../index.html" />
+        <Compile Include="Utils.fs" />
+        <Compile Include="App.fs" />
+        <Compile Include="Main.fs"/>
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Fable.Core" Version="4.3.0" />
+        <PackageReference Include="Feliz" Version="2.7.0" />
+        <PackageReference Include="Fable.Promise" Version="3.2.0" />
+    </ItemGroup>
+</Project>

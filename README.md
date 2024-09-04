@@ -17,20 +17,13 @@ Install the dependencies
 ```bash
 bun install
 ```
-
-...then to get `fable` restore the `dotnet` tools with
-
-```bash
-dotnet tool restore
-```
-
 ...and then run the app with
 
 ```bash
 bun run dev
 ```
 
-which will start the development server and open the app in your default browser.
+Which will start the development server and open the app in your default browser.
 
 ## Desktop app
 
