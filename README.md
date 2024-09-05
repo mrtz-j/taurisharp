@@ -32,3 +32,5 @@ To run the desktop app in development mode, run
 ```bash
 bun run tauri dev
 ```
+
+other commands are available [here](https://v2.tauri.app/reference/cli/)
